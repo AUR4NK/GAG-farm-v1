@@ -36,7 +36,7 @@ Script Roblox untuk game Grow A Garden dengan fitur lengkap.
 1. **Upload ke GitHub**
    ```
    - Buat repository baru di GitHub
-   - Upload semua file dari folder /root/grow-a-garden/
+   - Upload semua file dari folder /root/GAG-farm-v1/
    - Pastikan struktur folder tetap sama
    ```
 
@@ -45,19 +45,18 @@ Script Roblox untuk game Grow A Garden dengan fitur lengkap.
    - Klik file main.lua
    - Klik tombol "Raw"
    - Copy URL dari browser
-   - Contoh: https://raw.githubusercontent.com/KAMU/grow-a-garden/main/main.lua
+   - Contoh: https://raw.githubusercontent.com/AUR4NK/GAG-farm-v1/main/main.lua
    ```
 
-3. **Update URL di main.lua**
+3. **URL sudah disesuaikan** (tidak perlu diubah lagi)
    ```lua
-   -- Ganti semua "YOUR_USERNAME" dengan username GitHub kamu
-   -- Contoh:
-   local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/usernameKamu/grow-a-garden/main/libs/ui_library.lua"))()
+   -- URL sudah benar:
+   local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/GAG-farm-v1/main/libs/ui_library.lua"))()
    ```
 
 4. **Jalankan di Executor**
    ```lua
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/usernameKamu/grow-a-garden/main/main.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/GAG-farm-v1/main/main.lua"))()
    ```
 
 ### Metode 2: Langsung Paste
@@ -358,7 +357,7 @@ A: Script mencari sell remote/part otomatis. Jika tidak jalan:
 ## 📁 Struktur File
 
 ```
-grow-a-garden/
+GAG-farm-v1/
 ├── main.lua                    # Script utama + UI
 ├── libs/
 │   └── ui_library.lua          # UI Library

@@ -4,23 +4,23 @@
 
 ### 1. Download Script
 ```
-Download semua file dari folder /root/grow-a-garden/
+Download semua file dari folder /root/GAG-farm-v1/
 ```
 
 ### 2. Upload ke GitHub
 ```
 - Buka github.com
 - Klik "New Repository"
-- Nama: grow-a-garden
+- Nama: GAG-farm-v1
 - Upload semua file
 - Pastikan folder structure benar
 ```
 
 ### 3. Copy Loadstring
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/USERNAME/grow-a-garden/main/main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/GAG-farm-v1/main/main.lua"))()
 ```
-**Ganti `USERNAME` dengan username GitHub kamu!**
+**Ganti `AUR4NK` dengan username GitHub kamu!**
 
 ### 4. Jalankan
 ```
