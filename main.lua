@@ -6,17 +6,17 @@ print("=== Grow A Garden Script ===")
 print("Loading...")
 
 -- Load UI Library
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/grow-a-garden/main/libs/ui_library.lua"))()
-local Helpers = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/grow-a-garden/main/utils/helpers.lua"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/grow-a-garden/main/libs/ui_library.lua"))()
+local Helpers = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/grow-a-garden/main/utils/helpers.lua"))()
 
 -- Load modules
-local PetFinder = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/grow-a-garden/main/modules/pet_finder.lua"))()
-local WeatherPredict = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/grow-a-garden/main/modules/weather_predict.lua"))()
-local SeedSniper = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/grow-a-garden/main/modules/seed_sniper.lua"))()
-local PetTameSniper = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/grow-a-garden/main/modules/pet_tame_sniper.lua"))()
-local RaccoonFinder = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/grow-a-garden/main/modules/raccoon_finder.lua"))()
-local CoinFarmer = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/grow-a-garden/main/modules/coin_farmer.lua"))()
-local UnicornFinder = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/grow-a-garden/main/modules/unicorn_finder.lua"))()
+local PetFinder = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/grow-a-garden/main/modules/pet_finder.lua"))()
+local WeatherPredict = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/grow-a-garden/main/modules/weather_predict.lua"))()
+local SeedSniper = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/grow-a-garden/main/modules/seed_sniper.lua"))()
+local PetTameSniper = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/grow-a-garden/main/modules/pet_tame_sniper.lua"))()
+local RaccoonFinder = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/grow-a-garden/main/modules/raccoon_finder.lua"))()
+local CoinFarmer = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/grow-a-garden/main/modules/coin_farmer.lua"))()
+local UnicornFinder = loadstring(game:HttpGet("https://raw.githubusercontent.com/AUR4NK/grow-a-garden/main/modules/unicorn_finder.lua"))()
 
 -- Anti AFK
 Helpers:EnableAntiAFK()
